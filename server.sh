@@ -11,7 +11,9 @@ do
      echo '{${netip}.${hostip}:online}' >> online.json
   else
      echo '{${netip}.${hostip}:online}' >> offline.json
-  fi
+  
+
+   fi
 
 
  }&
